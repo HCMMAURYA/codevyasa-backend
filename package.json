@@ -1,0 +1,32 @@
+{
+  "name": "mahima_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.7.1",
+    "fastify": "^4.23.2",
+    "fastify-cors": "^6.1.0",
+    "fastify-plugin": "^4.5.1",
+    "fastify-postgres": "^3.7.0",
+    "pg": "^8.11.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
